@@ -10,6 +10,6 @@ xcodebuild -configuration "$CONFIGURATION" build "SYMROOT=$BUILD_DIR" > /dev/nul
 
 $PRODUCT
 
-echo "Success!"
-
 sudo dtrace -s "test.d" -c "$PRODUCT"
+
+echo "Success!"
