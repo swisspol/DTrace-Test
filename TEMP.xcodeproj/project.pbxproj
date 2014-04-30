@@ -1,0 +1,188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2332E711910185300BE1801 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = E2332E701910185300BE1801 /* main.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2332E6B1910185300BE1801 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E2332E6D1910185300BE1801 /* TEMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TEMP; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2332E701910185300BE1801 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2332E6A1910185300BE1801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2332E641910185200BE1801 = {
+			isa = PBXGroup;
+			children = (
+				E2332E6F1910185300BE1801 /* TEMP */,
+				E2332E6E1910185300BE1801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2332E6E1910185300BE1801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2332E6D1910185300BE1801 /* TEMP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2332E6F1910185300BE1801 /* TEMP */ = {
+			isa = PBXGroup;
+			children = (
+				E2332E701910185300BE1801 /* main.mm */,
+			);
+			path = TEMP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2332E6C1910185300BE1801 /* TEMP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2332E761910185300BE1801 /* Build configuration list for PBXNativeTarget "TEMP" */;
+			buildPhases = (
+				E2332E691910185300BE1801 /* Sources */,
+				E2332E6A1910185300BE1801 /* Frameworks */,
+				E2332E6B1910185300BE1801 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEMP;
+			productName = TEMP;
+			productReference = E2332E6D1910185300BE1801 /* TEMP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2332E651910185300BE1801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Pierre-Olivier Latour";
+			};
+			buildConfigurationList = E2332E681910185300BE1801 /* Build configuration list for PBXProject "TEMP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2332E641910185200BE1801;
+			productRefGroup = E2332E6E1910185300BE1801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2332E6C1910185300BE1801 /* TEMP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2332E691910185300BE1801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2332E711910185300BE1801 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2332E741910185300BE1801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E2332E751910185300BE1801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E2332E771910185300BE1801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2332E781910185300BE1801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2332E681910185300BE1801 /* Build configuration list for PBXProject "TEMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2332E741910185300BE1801 /* Debug */,
+				E2332E751910185300BE1801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2332E761910185300BE1801 /* Build configuration list for PBXNativeTarget "TEMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2332E771910185300BE1801 /* Debug */,
+				E2332E781910185300BE1801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2332E651910185300BE1801 /* Project object */;
+}
