@@ -5,10 +5,10 @@ BUILD_DIR="/tmp/TEMP"
 PRODUCT="$BUILD_DIR/$CONFIGURATION/TEMP"
 TRACE_OUTPUT="/tmp/trace.txt"
 
-# rm -rf "$BUILD_DIR"
-# xcodebuild -configuration "$CONFIGURATION" build "SYMROOT=$BUILD_DIR" > /dev/null
-# 
-# $PRODUCT
+rm -rf "$BUILD_DIR"
+xcodebuild -configuration "$CONFIGURATION" build "SYMROOT=$BUILD_DIR" > /dev/null
+
+$PRODUCT
 
 sudo rm -f "$TRACE_OUTPUT"
 sudo DYLD_SHARED_REGION=avoid dtrace -s "test.d" -o "$TRACE_OUTPUT" -c "$PRODUCT" > /dev/null
